@@ -65,13 +65,17 @@
         extra1 {
             display-name = "extra1";
             status = "reserved";
-            bindings = <>;
+            bindings = <
+&none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &none  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &mt LEFT_SHIFT F11  &mt LEFT_CONTROL F12  &none  &kp TAB  &kp ENTER  &none  &bootloader  &none  &none  &kp RIGHT_WIN  &mt RIGHT_CONTROL PERIOD  &kp RIGHT_SHIFT  &none  &none  &mo 3  &trans  &trans  &trans  &none
+            >;
         };
 
         extra2 {
             display-name = "extra2";
             status = "reserved";
-            bindings = <>;
+            bindings = <
+&none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &none  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &mt LEFT_SHIFT F11  &mt LEFT_CONTROL F12  &none  &kp TAB  &kp ENTER  &none  &bootloader  &none  &none  &kp RIGHT_WIN  &mt RIGHT_CONTROL PERIOD  &kp RIGHT_SHIFT  &none  &none  &mo 3  &trans  &trans  &trans  &none
+            >;
         };
     };
 };
